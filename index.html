@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>App Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- owl carousel css --> 
+  <link rel="stylesheet" href="css/owl.carousel.min.css"> 
+  <!-- font awesome icons --> 
+  <link rel="stylesheet" href="css/font-awesome.css"> 
+  <!-- bootstrap css --> 
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark">
+        <!-- loader -->
+        <div class="preloader">
+          <span></span>
+        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">Land<span>App</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" data-scroll-nav="0" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll-nav="1" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll-nav="2" href="#">Screenshots</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll-nav="4" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll-nav="5" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll-nav="6" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- home Section -->
+        <section class="home d-flex align-items-center" id="home" data-scroll-index="0">
+          <div class="effect-wrap">
+            <i class="fas fa-spinner effect effect-1"></i><i class="fas fa-plus effect effect-1"></i>
+            <i class="fas fa-plus effect effect-2"></i>
+            <i class="fas fa-circle-notch effect effect-3"></i>
+          </div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <div class="home-text">
+                  <h1>Best Mobile App Template For Your Business.</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar, efficitur eros eget, dapibus dui. Phasellus non congue justo.
+                  </p>
+                  <div class="home-btn">
+                    <a href="" class="btn btn-1"  data-scroll-goto="3">Donload the App</a>
+                    <button class="btn btn-1 video-play-btn" type="button"><i class="fas fa-play"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 text-center">
+                <div class="home-img">
+                  <div class="circle"></div>
+                  <img src="./img/app-screenshots/1.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- video popup -->
+        <section class="video-popup">
+          <div class="video-popup-inner">
+            <i class="fas fa-times video-popup-close"></i>
+            <div class="iframe-box">
+              <iframe id="player-1" src="https://www.youtube.com/embed/iaj8ktgL3BY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </section>
+        <!-- Features Section -->
+        <section class="features section-padding" id="features" data-scroll-index="1">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>Awesome <span>features</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="features-carousel owl-carousel">
+                <div class="feature-item">
+                  <div class="icon"><i class="fas fa-code"></i></i></div>
+                  <h3>Clean Code</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+                <div class="feature-item">
+                  <div class="icon"><i class="fas fa-edit"></i></div>
+                  <h3>Auto Install System</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+                <div class="feature-item">
+                  <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                  <h3>Pixel perfect design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+                <div class="feature-item">
+                  <div class="icon"><i class="fas fa-cloud-download-alt"></i></div>
+                  <h3>Fast Load app</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fun Facts Section -->
+        <section class="fun-facts section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 d-flex align-items-center justify-content-center">
+                <div class="fun-facts-img">
+                  <img src="./img/app-screenshots/2.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-7">
+                <div class="section-title">
+                  <h2>fun <span>facts</span></h2>
+                </div>
+                <div class="fun-facts-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat purus vel tempus lacinia. Nullam vitae lacinia justo. Integer fringilla ante in viverra consequat. Sed et sapien iaculis, gravida massa a, gravida dui.
+                  </p>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="fun-fact-item style-1">
+                        <h3>4000</h3>
+                        <span>Downloads</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="fun-fact-item style-2">
+                        <h3>3000</h3>
+                        <span>Likes</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="fun-fact-item style-3">
+                        <h3>2000</h3>
+                        <span>5 Stars Rating</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="fun-fact-item style-4">
+                        <h3>150</h3>
+                        <span>ِAwards</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- App ScreenShots secction -->
+        <section class="appscreen section-padding" id="screenShots"  data-scroll-index="2">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="section-title text-center">
+                  <h2>app <span>Screenshots</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="screen-carousel owl-carousel">
+                <div class="screen-item">
+                  <img src="./img/app-screenshots/1.png" alt="">
+                </div>
+                <div class="screen-item">
+                  <img src="./img/app-screenshots/2.png" alt="">
+                </div>
+                <div class="screen-item">
+                  <img src="./img/app-screenshots/3.png" alt="">
+                </div>
+                <div class="screen-item">
+                  <img src="./img/app-screenshots/1.png" alt="">
+                </div>
+                <div class="screen-item">
+                  <img src="./img/app-screenshots/2.png" alt="">
+                </div>
+                <div class="screen-item">
+                  <img src="./img/app-screenshots/3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- App downloads section -->
+        <section class="app-download section-padding"   data-scroll-index="3">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>download <span>app</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6">
+                <div class="app-download-item">
+                  <i class="fab fa-google-play"></i>
+                  <h3>Google play</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                  <a href="#" class="btn btn-2">Download Now!</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="app-download-item">
+                  <i class="fab fa-apple"></i>
+                  <h3>Apple Store</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                  <a href="#" class="btn btn-2">Download Now!</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="app-download-item">
+                  <i class="fab fa-windows"></i>
+                  <h3>Microsoft Store</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                  <a href="#" class="btn btn-2">Download Now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- How it works section -->
+        <section class="work section-padding">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>How it <span>works</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="work-item line-right">
+                  <div class="step">1</div>
+                  <h3>download</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="work-item line-right">
+                  <div class="step">2</div>
+                  <h3>create profile</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="work-item line-right">
+                  <div class="step">3</div>
+                  <h3>search product</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="work-item">
+                  <div class="step">4</div>
+                  <h3>order</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Testmonials section -->
+        <section class="test section-padding" id="testmonials"  data-scroll-index="4">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>what our <span>client</span> say</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="test-carousel owl-carousel">
+                <div class="test-item">
+                  <div class="img-box">
+                    <img src="./img/testimonial/1.jpg" alt="">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                  <h3>Lorem Ipsum</h3>
+                  <span>UI designer</span>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="test-item">
+                  <div class="img-box">
+                    <img src="./img/testimonial/2.jpg" alt="">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                  <h3>Lorem Ipsum</h3>
+                  <span>Web developer</span>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="test-item">
+                  <div class="img-box">
+                    <img src="./img/testimonial/3.jpg" alt="">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                  <h3>Lorem Ipsum</h3>
+                  <span>web designer</span>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="test-item">
+                  <div class="img-box">
+                    <img src="./img/testimonial/4.jpg" alt="">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo pulvinar.
+                  </p>
+                  <h3>Lorem Ipsum</h3>
+                  <span>UI designer</span>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- pricing section -->
+        <section class="pricing section-padding" id="pricing" data-scroll-index="5">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>pricing <span>plan</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6">
+                <div class="pricing-plan">
+                  <div class="pricing-header">
+                    <h3>basic</h3>
+                  </div>
+                  <div class="pricing-price">
+                    <span class="currency">$</span>
+                    <span class="price">99</span>
+                    <span class="period">/monthly</span>
+                  </div>
+                  <div class="pricing-body">
+                    <ul>
+                      <li><i class="fas fa-check-square"></i> 5 GB Bandwidth</li>
+                      <li><i class="fas fa-check-square"></i> Free Update</li>
+                      <li><i class="fas fa-check-square"></i> High Regulation Pricing</li>
+                      <li><i class="fas fa-check-square"></i> Branding</li>
+                      <li><i class="fas fa-check-square"></i>Another Great Features</li>
+                    </ul>
+                  </div>
+                  <div class="pricing-footer">
+                    <a href="#" class="btn btn-2">Get Staeted</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="pricing-plan">
+                  <div class="pricing-header">
+                    <h3>premium</h3>
+                  </div>
+                  <div class="pricing-price">
+                    <span class="currency">$</span>
+                    <span class="price">99</span>
+                    <span class="period">/monthly</span>
+                  </div>
+                  <div class="pricing-body">
+                    <ul>
+                      <li><i class="fas fa-check-square"></i> 15 GB Bandwidth</li>
+                      <li><i class="fas fa-check-square"></i> Free Update</li>
+                      <li><i class="fas fa-check-square"></i> High Regulation Pricing</li>
+                      <li><i class="fas fa-check-square"></i> Branding</li>
+                      <li><i class="fas fa-check-square"></i>Another Great Features</li>
+                    </ul>
+                  </div>
+                  <div class="pricing-footer">
+                    <a href="#" class="btn btn-2">Get Staeted</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="pricing-plan">
+                  <div class="pricing-header">
+                    <h3>ultimate</h3>
+                  </div>
+                  <div class="pricing-price">
+                    <span class="currency">$</span>
+                    <span class="price">99</span>
+                    <span class="period">/monthly</span>
+                  </div>
+                  <div class="pricing-body">
+                    <ul>
+                      <li><i class="fas fa-check-square"></i> 50 GB Bandwidth</li>
+                      <li><i class="fas fa-check-square"></i> Free Update</li>
+                      <li><i class="fas fa-check-square"></i> High Regulation Pricing</li>
+                      <li><i class="fas fa-check-square"></i> Branding</li>
+                      <li><i class="fas fa-check-square"></i>Another Great Features</li>
+                    </ul>
+                  </div>
+                  <div class="pricing-footer">
+                    <a href="#" class="btn btn-2">Get Staeted</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- team section -->
+        <section class="team section-padding">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>team <span>member</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="team-carousel owl-carousel">
+                <div class="team-item">
+                  <img src="./img/team/1.jpg" alt="">
+                  <h3>Lorem Ipsum</h3>
+                  <span>UI Designer</span>
+                </div>
+                <div class="team-item">
+                  <img src="./img/team/2.jpg" alt="">
+                  <h3>Lorem Ipsum</h3>
+                  <span>UI Designer</span>
+                </div>
+                <div class="team-item">
+                  <img src="./img/team/3.jpg" alt="">
+                  <h3>Lorem Ipsum</h3>
+                  <span>UI Designer</span>
+                </div>
+                <div class="team-item">
+                  <img src="./img/team/4.jpg" alt="">
+                  <h3>Lorem Ipsum</h3>
+                  <span>UI Designer</span>
+                </div>
+                <div class="team-item">
+                  <img src="./img/team/5.jpg" alt="">
+                  <h3>Lorem Ipsum</h3>
+                  <span>UI Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Faq section -->
+        <section class="faq section-padding">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>freaquently <span>asked</span> queries</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+               <div id="accordion">
+                 <div class="accordion-item">
+                   <div class="accordion-header" data-toggle="collapse" data-target="#collapse-01">
+                     <h3>100% fluid responsive - fits devices perfectly</h3>
+                   </div>
+                   <div class="collapse show" id="collapse-01"  data-parent="#accordion">
+                     <div class="accordion-body">
+                       <p>
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odio maiores neque, expedita temporibus officia iure quas dolore, inventore aliquid minus amet tempore. Inventore, quasi! Nam pariatur quisquam corrupti quaerat.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="accordion-item">
+                  <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-02">
+                    <h3>clean code</h3>
+                  </div>
+                  <div class="collapse" id="collapse-02" data-parent="#accordion">
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore fugiat ipsum consectetur maxime, dolorem iste dicta iusto odio, culpa eaque qui! Rem blanditiis in nesciunt mollitia impedit distinctio pariatur!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-03">
+                    <h3>flat, modern and clean design</h3>
+                  </div>
+                  <div class="collapse" id="collapse-03" data-parent="#accordion">
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam assumenda, reiciendis magni iste quo repudiandae mollitia possimus reprehenderit culpa aliquid! Quidem explicabo dignissimos reprehenderit aperiam officiis. Tenetur, totam omnis!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item"> 
+                  <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+                    <h3>custom font support</h3>
+                  </div>
+                  <div class="collapse" id="collapse-04" data-parent="#accordion">
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio hic perferendis deleniti nemo. Aspernatur inventore aliquid, fugiat, molestias impedit nihil perferendis, voluptate recusandae ipsum pariatur sed temporibus ad repellendus ex.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact section -->
+        <section class="contact section-padding" data-scroll-index="6">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <div class="section-title">
+                  <h2>get in <span>touch</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-5">
+                <div class="contact-info">
+                  <h3>For Any Queries and Support</h3>
+                  <div class="contact-info-item">
+                    <i class="fas fa-location-arrow"></i>
+                    <h4>Company Location</h4>
+                    <p>24 Lorem st, Ipsum</p>
+                  </div>
+                  <div class="contact-info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Write to us at</h4>
+                    <p>@example.com</p>
+                  </div>
+                  <div class="contact-info-item">
+                    <i class="fas fa-phone"></i>
+                    <h4>Call us on</h4>
+                    <p>123-456-789</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-7">
+                <div class="contact-form">
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <input type="text" placeholder="Your Name" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <input type="email" placeholder="Your Email" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input type="number" placeholder="Your hone" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input type="text" placeholder="Subject" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <textarea type="text" placeholder="Your message" class="form-control"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <button type="submit" class="btn btn-2">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- footer section -->
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-col">
+                  <h3>About Us</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos perferendis rem optio!</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-col">
+                  <h3>Company</h3>
+                  <ul>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Latest Blogs</a></li>
+                    <li><a href="#">App Services</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-col">
+                  <h3>Quick Links</h3>
+                  <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#screenShots">ScreenShots</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testmonials">Testimonials</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-col">
+                  <h3>Social Pages</h3>
+                  <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instgram</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="copyright-text">&copy; 2021 M.Hassan All rights resevied</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="toggle-theme">
+          <i class="fas"></i>
+        </div>
+<!-- jquery js -->
+<script src="js/jquery.min.js"></script>
+<!-- popper js -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- owl carousel js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- ScrollIt js -->
+<script src="js/scrollIt.min.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>
